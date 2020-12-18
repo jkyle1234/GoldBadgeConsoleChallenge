@@ -1,4 +1,4 @@
-<h1><b>This is the Gold Badge Console Applicatin Challenge<b></h1>
+<h1><b>This is the Gold Badge Console Application Challenge<b></h1>
 <h2>Challenge 1 Komodo Cafe</h2>
 <p>Komodo cafe is getting a new menu. The manager wants to be able to create new menu items, delete menu items, and receive a list of all items on the cafe's menu. She needs a console app.</p>
 <h2>Challenge 2 Komodo Claims</h2>
