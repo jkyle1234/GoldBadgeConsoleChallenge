@@ -28,13 +28,13 @@ namespace KomodoLib
 
         public string GetListOfIngredients()
         {
-            string menu = "";
+            StringBuilder sb = new StringBuilder();
             foreach(String s in this.Ingredients)
             {
-                menu += s + ",";
+                sb.Append(s).Append(",");   
             }
-            menu.Remove(menu.Length, 1);
-            return menu;
+            sb.Remove(sb.Length-1, 1);
+            return sb.ToString();
         }
 
 

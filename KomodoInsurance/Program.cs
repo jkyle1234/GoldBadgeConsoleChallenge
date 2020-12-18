@@ -10,6 +10,8 @@ namespace KomodoInsurance
     {
         static void Main(string[] args)
         {
+            BadgeUI b = new BadgeUI();
+            b.Run();
         }
     }
 }

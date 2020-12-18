@@ -33,16 +33,17 @@ namespace KomodClaimsLib
         }
 
         
-
+        public int GetQueueCount()
+        {
+            return claimRepo.Count;
+        }
 
 
         //Update
-        public Claim ProcessClaim(string input)
+        public Claim ProcessClaim()
         {
-            if (input.ToLower() == "y")
-            {
+            if (claimRepo.Count > 0)
                 return claimRepo.Dequeue();
-            }
             else
                 return null;
         }

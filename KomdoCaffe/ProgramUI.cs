@@ -119,6 +119,7 @@ namespace KomdoCaffe
             Console.WriteLine("Please enter the price:");
             double p = double.Parse(Console.ReadLine());
             Menu m = new Menu(num, mealName, description, menuitems, p);
+            menuRep.AddMenuItem(m);
             DisplayMenu();
 
         }

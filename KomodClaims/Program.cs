@@ -10,6 +10,8 @@ namespace KomodClaims
     {
         static void Main(string[] args)
         {
+            ClaimsUI c = new ClaimsUI();
+            c.Run();
         }
     }
 }
