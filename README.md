@@ -1,4 +1,4 @@
-<h1><b>his is the Gold Badge Console Applicatin Challenge<b></h1>
+<h1><b>This is the Gold Badge Console Applicatin Challenge<b></h1>
 <h2>Challenge 1 Komodo Cafe</h2>
 <p>Komodo cafe is getting a new menu. The manager wants to be able to create new menu items, delete menu items, and receive a list of all items on the cafe's menu. She needs a console app.</p>
 <h2>Challenge 2 Komodo Claims</h2>
@@ -48,7 +48,7 @@ Date Of Accident: 4/27/18
 Date of Claim: 4/28/18
 This claim is valid.</p>
 
-<h2>Challenge 3 Badges</h2>
+<h2>Challenge 3 Komodo Insurance Badges</h2>
 <p>The Program will allow a security staff member to do the following:</p>
 <ul>
     <li>create a new badge</li>
