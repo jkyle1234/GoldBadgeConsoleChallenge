@@ -73,9 +73,16 @@ namespace KomodoInsuranceLib
 
         public Badge GetBadge(string badgeNum)
         {
-            int bnum = int.Parse(badgeNum);
-            Badge b = badgeRepo[bnum];
-            return b;
+            try
+            {
+                int bnum = int.Parse(badgeNum);
+                Badge b = badgeRepo[bnum];
+                return b;
+            }
+            catch(Exception e)
+            {
+                return null;
+            }
         }
 
         public int Count()

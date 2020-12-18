@@ -74,10 +74,17 @@ namespace KomodoInsurance
 
         private void RemoveAllDoors()
         {
-            Console.WriteLine("Please eneter the badge number you would like to remove all doors");
+            Console.WriteLine("Please enter the badge number you would like to remove all doors");
             string badNum = Console.ReadLine();
             Badge b = badgeRepo.GetBadge(badNum);
-            badgeRepo.DeleteAllDoorsFromBagde(b);
+            if (b != null)
+            {
+                badgeRepo.DeleteAllDoorsFromBagde(b);
+            }
+            else
+            {
+                Console.WriteLine("Invalid entery");
+            }
         }
 
         private void ListAllBadges()
@@ -96,6 +103,11 @@ namespace KomodoInsurance
             Console.WriteLine("What is the badge number to update?");
             string badgeNum = Console.ReadLine();
             Badge b = badgeRepo.GetBadge(badgeNum);
+            if (b == null)
+            {
+                Console.WriteLine("Invalid badge number");
+                return;
+            }
             DisplayBadgeDetail(b);
             Console.WriteLine("What would you like to do?");
             Console.WriteLine("1. Add a door");
