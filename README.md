@@ -49,9 +49,11 @@ Date of Claim: 4/28/18
 This claim is valid.</p>
 
 <h2>Challenge 3 Badges</h2>
-<p>The Program will allow a security staff member to do the following:
-    create a new badge
-    update doors on an existing badge.
-    delete all doors from an existing badge.
-    show a list with all badge numbers and door access
-</p>
+<p>The Program will allow a security staff member to do the following:</p>
+<ul>
+    <li>create a new badge</li>
+    <li>update doors on an existing badge.</li>
+    <li>delete all doors from an existing badge.</li>
+    <li>show a list with all badge numbers and door access</li>
+</ul>
+
