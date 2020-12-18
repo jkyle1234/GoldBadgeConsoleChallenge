@@ -48,7 +48,7 @@ Date Of Accident: 4/27/18
 Date of Claim: 4/28/18
 This claim is valid.</p>
 
-<h2><Challenge 3 Badges/h2>
+<h2><Challenge 3 Badges</h2>
 <p>The Program will allow a security staff member to do the following:
     create a new badge
     update doors on an existing badge.
